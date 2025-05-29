@@ -1,10 +1,10 @@
 import styles from './Header.module.css';
-function Header() {
-	return (
-		<header className={styles.header}>
-			<h1>Olá mundo!</h1>
 
-		</header>
-	);
+function Header(){
+  return(
+    <div className={styles.header}>Vasco da gama</div>
+  )
+
 }
-export default Header;
+export default Header
+
